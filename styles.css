@@ -1,0 +1,21 @@
+h1{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 2rem;
+}
+button{
+  padding: 10px;
+  background-color: rgb(171, 213, 238);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+}
+button:hover {
+  background-color: #a5c4ce;
+}
+
+button:active {
+  background-color: #c9d8dd;
+  box-shadow: none;
+  position: relative;
+}
